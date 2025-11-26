@@ -27,11 +27,10 @@ public class ImerzaAssetLibrary : ModuleRules
 			{
 				"Core",
 				"Blutility"
-				// ... add other public dependencies that you statically link with here ...
 			}
 			);
-			
-		
+
+
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
@@ -39,7 +38,12 @@ public class ImerzaAssetLibrary : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
-				// ... add private dependencies that you statically link with here ...	
+				"WebBrowser",
+				"InputCore",
+				"EditorStyle",
+				"ToolMenus",
+				"UnrealEd",
+				"PythonScriptPlugin"
 			}
 			);
 		
